@@ -1,19 +1,38 @@
 {
-  "name": "vue-ctrlp",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-ctrlp src/index.js"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "core-js": "^3.6.5",
-    "vue": ">=2",
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "sass": "^1.26.5",
-    "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
-  }
+	"name": "vue-ctrlp",
+	"main": "./dist/vueCtrlp.common.js",
+	"version": "0.1.0",
+	"sideEffects": false,
+	"keywords": [
+		"vue",
+		"search",
+		"ctrlp",
+		"component"
+	],
+	"author": {
+		"name": "Voltra",
+		"url": "https://ludwigguerin.fr",
+		"email": "ludwig.guerin.98@gmx.fr"
+	},
+	"bugs": {
+		"url": "https://github.com/Voltra/vue-ctrlp/issues"
+	},
+	"homepage": "https://github.com/Voltra/vue-ctrlp#readme",
+	"scripts": {
+		"serve": "vue-cli-service build --watch --target lib --name vueCtrlp src/index.js",
+		"build": "vue-cli-service build --target lib --name vueCtrlp src/index.js"
+	},
+	"dependencies": {
+		"lodash.debounce": "^4.0.8",
+		"vue-types": "^2.0.2"
+	},
+	"devDependencies": {
+		"core-js": "^3.6.5",
+		"vue": ">=2",
+		"@vue/cli-plugin-babel": "~4.5.0",
+		"@vue/cli-service": "~4.5.0",
+		"sass": "^1.26.5",
+		"sass-loader": "^8.0.2",
+		"vue-template-compiler": "^2.6.11"
+	}
 }
