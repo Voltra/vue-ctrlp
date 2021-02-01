@@ -1,3 +1,13 @@
+package-lock.json
+yarn.lock
+.env
+.brackets.json
+
+
+
+
+###
+
 .DS_Store
 node_modules
 /dist
@@ -14,8 +24,8 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Editor directories and files
-.idea
-.vscode
+.idea/
+.vscode/
 *.suo
 *.ntvs*
 *.njsproj

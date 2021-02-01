@@ -1,0 +1,9 @@
+node_modules/
+babel.config.js
+vue.config.js
+package-lock.json
+yarn.lock
+.env
+.idea/
+.vscode/
+.brackets.json
